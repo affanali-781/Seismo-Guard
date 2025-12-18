@@ -42,20 +42,6 @@ export default function Hero() {
 						transition={{ duration: 0.8, delay: 0.2 }}
 						className="text-center lg:text-left"
 					>
-						{/* Badge */}
-						<motion.div
-							initial={{ opacity: 0, y: 20 }}
-							animate={{ opacity: 1, y: 0 }}
-							transition={{ delay: 0.4 }}
-							className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8"
-						>
-							<span className="relative flex h-2 w-2">
-								<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
-								<span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
-							</span>
-							Early Earthquake Warning System
-						</motion.div>
-
 						{/* Headline */}
 						<h1 className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6">
 							<span className="text-foreground">Detect.</span>{" "}
@@ -132,7 +118,7 @@ export default function Hero() {
 							className="relative z-10"
 						>
 							<img
-								src="/assets/cruvia-helmet.png"
+								src="/assets/hero-seismoguard.jpg"
 								alt="SeismoGuard earthquake detection device with glowing amber indicators"
 								className="w-full max-w-125 lg:max-w-150 drop-shadow-[0_0_80px_hsl(35_100%_50%/0.3)]"
 							/>

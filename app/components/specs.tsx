@@ -79,7 +79,7 @@ export default function Specs() {
 					>
 						<div className="relative rounded-3xl overflow-hidden neon-border">
 							<img
-								src="/assets/cruvia-helmet.png"
+								src="/assets/seismoguard-tech.jpg"
 								alt="SeismoGuard internal technology and circuit board"
 								className="w-full aspect-square object-cover"
 							/>
